@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1016174686846",
+    "project_id": "yuvabul-a9d75",
+    "storage_bucket": "yuvabul-a9d75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016174686846:android:6f7756352ea3f53d19de2f",
+        "android_client_info": {
+          "package_name": "com.dell.yuvabul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016174686846-uu19ubs7j0hb6m05hrc2511jtl9o02j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAviBb3k7qTLNWB9jAamBIdap8nS4ufYiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016174686846-uu19ubs7j0hb6m05hrc2511jtl9o02j4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

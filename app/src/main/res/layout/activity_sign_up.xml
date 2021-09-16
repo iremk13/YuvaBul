@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5EECD2B9"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="5dp"
+        android:padding="15dp"
+        android:text="TextView"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/gilroylight"
+
+        android:text="Üye Ol"
+        android:textSize="25sp" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="5dp"
+            android:padding="12dp"
+            android:fontFamily="@font/gilroylight"
+            android:background="#04DED9D4"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:hint="Ad-Soyad giriniz"
+            android:id="@+id/etName" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="5dp"
+            android:padding="12dp"
+            android:inputType="textEmailAddress"
+            android:fontFamily="@font/gilroylight"
+            android:background="#00E5C7BE"
+            android:textColor="@color/black"
+            android:hint="email giriniz"
+            android:id="@+id/etEmail" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="5dp"
+            android:padding="12dp"
+            android:inputType="textPassword"
+            android:fontFamily="@font/gilroylight"
+            android:background="#00FAEFEF"
+            android:textColor="@color/black"
+            android:hint="parolanızı giriniz"
+            android:id="@+id/etPassword" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/gilroylight"
+            android:padding="12dp"
+            android:inputType="textPassword"
+            android:background="#00FAEFEF"
+            android:textColor="@color/black"
+            android:hint="parolanızı tekrar giriniz"
+            android:id="@+id/etConfirmPassword" />
+
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginEnd="2dp"
+        android:background="#DFB4A0"
+        android:fontFamily="@font/gilroylight"
+        android:text="Üye Ol"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="#19278C"
+        android:fontFamily="@font/gilroylight"
+        android:text="Giriş Yap"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

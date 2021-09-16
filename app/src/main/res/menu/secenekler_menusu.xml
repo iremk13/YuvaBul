@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ilanekle"
+        android:title="İlan Ekle">
+
+    </item>
+
+    <item
+        android:id="@+id/mesajlar"
+        android:title="Mesajlar">
+
+    </item>
+
+    <item
+        android:id="@+id/profil"
+        android:title="Profilim">
+
+    </item>
+
+    <item
+        android:id="@+id/cikisyap"
+        android:title="Cıkıs Yap">
+
+    </item>
+    <item
+        android:id="@+id/kullanici"
+        android:title="Kullanıcılar">
+
+    </item>
+</menu>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/recycler_row_kullanici_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Kullanici emaili"
+        android:fontFamily="@font/gilroyextra"
+        android:textColor="#0099FF"
+        android:textSize="18sp"></TextView>
+
+
+
+    <ImageView
+        android:id="@+id/recycler_row_imageview"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="2dp"
+        app:srcCompat="@drawable/adsiz"
+
+        ></ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="189dp"
+            android:layout_height="29dp"
+            android:text="İLAN SAHİBİ:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/gilroylight"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/recycler_row_kullaniciadi"
+            android:layout_width="226dp"
+            android:layout_height="match_parent"
+            android:text="cinsini gir "
+            android:textColor="@color/teal_200"
+            android:fontFamily="@font/madeleinasans"
+            android:textSize="24sp"
+
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="189dp"
+            android:layout_height="29dp"
+            android:text="KEDİ/KÖPEK :"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="@font/gilroylight"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/recycler_row_kediköpek"
+            android:layout_width="226dp"
+            android:layout_height="match_parent"
+            android:text="cinsini gir "
+            android:textColor="@color/teal_200"
+            android:fontFamily="@font/madeleinasans"
+            android:textSize="24sp"
+
+            ></TextView>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="188dp"
+            android:layout_height="match_parent"
+            android:text="IRK :"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="@font/gilroylight"
+            android:textAlignment="center"  />
+
+        <TextView
+            android:id="@+id/recycler_row_irk"
+            android:layout_width="225dp"
+            android:layout_height="match_parent"
+            android:text="irki girin"
+            android:fontFamily="@font/madeleinasans"
+            android:textColor="@color/teal_200"
+            android:textSize="24sp"></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:text="YAŞ : "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="@font/gilroylight"
+            android:textAlignment="center" ></TextView>
+
+        <TextView
+            android:id="@+id/recycler_row_yas"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:text="yas"
+            android:textColor="@color/teal_200"
+            android:fontFamily="@font/madeleinasans"
+            android:textSize="24sp"></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:text="CİNSİYET : "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="@font/gilroylight"
+            android:textAlignment="center"
+
+            ></TextView>
+
+        <TextView
+            android:id="@+id/recycler_row_cinsiyet"
+            android:layout_width="221dp"
+            android:layout_height="match_parent"
+            android:text="cinsiyet"
+            android:fontFamily="@font/madeleinasans"
+            android:textColor="@color/teal_200"
+            android:textSize="24sp"
+
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:text="BARINAKTAN MI? :"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="@font/gilroylight"
+            android:textAlignment="center"
+
+            ></TextView>
+
+        <TextView
+            android:id="@+id/recycler_row_barinak"
+            android:layout_width="223dp"
+            android:layout_height="match_parent"
+            android:text="barinak"
+            android:fontFamily="@font/madeleinasans"
+            android:textColor="@color/teal_200"
+            android:textSize="24sp"
+
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:text="İL : "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="@font/gilroylight"
+            android:textAlignment="center"
+
+            ></TextView>
+
+        <TextView
+            android:id="@+id/recycler_row_il"
+            android:layout_width="222dp"
+            android:layout_height="match_parent"
+            android:text="il"
+            android:fontFamily="@font/madeleinasans"
+            android:textColor="@color/teal_200"
+            android:textSize="24sp"
+
+            ></TextView>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:text="İLÇE :  "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="@font/gilroylight"
+            android:textAlignment="center"
+
+            ></TextView>
+
+        <TextView
+            android:id="@+id/recycler_row_ilce"
+            android:layout_width="221dp"
+            android:layout_height="match_parent"
+            android:text="ilce"
+            android:fontFamily="@font/madeleinasans"
+            android:textColor="@color/teal_200"
+            android:textSize="24sp"
+
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:text="EK BİLGİLER :"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="@font/gilroylight"
+            android:textAlignment="center"
+
+            ></TextView>
+
+        <TextView
+            android:id="@+id/recycler_row_genelbilgi"
+            android:layout_width="221dp"
+            android:layout_height="match_parent"
+            android:text="genelbilgi"
+            android:fontFamily="@font/madeleinasans"
+            android:textColor="@color/teal_200"
+            android:textSize="24sp"
+
+            ></TextView>
+    </LinearLayout>
+
+
+</LinearLayout>

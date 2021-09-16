@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dell.yuvabul">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/button_background"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YuvaBul">
+        <activity android:name=".feedRecyclerAdapter"></activity>
+        <activity android:name=".ilanekle" />
+        <activity android:name=".feedActivity" />
+        <activity android:name=".feedActivity1" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name="com.dell.yuvabul.ilanekle" />
+
+        <service android:name=".yuvabul.YuvaBulService">
+            android:permission="com.google.android.c2dm.permission.SEND"
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".UsersActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FeedActivity" />
+        <activity android:name=".SignUpActivity" />
+    </application>
+
+</manifest>

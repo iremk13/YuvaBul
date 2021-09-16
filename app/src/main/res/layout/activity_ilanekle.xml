@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5EECD2B9"
+    tools:context="ilanekle">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="10dp"
+        android:onClick="gorselSec"
+        app:layout_constraintBottom_toTopOf="@+id/kullaniciadi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/adsiz" />
+
+    <EditText
+        android:id="@+id/kullaniciadi"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:ems="10"
+        android:fontFamily="@font/madeleinasans"
+        android:hint="Ad-soyad giriniz"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/kedikopek"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/kedikopek"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:ems="10"
+        android:fontFamily="@font/madeleinasans"
+        android:hint="kedi/kopek"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/irk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kullaniciadi" />
+
+    <EditText
+        android:id="@+id/irk"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:fontFamily="@font/madeleinasans"
+        android:hint="ırk(yoksa boş gecebilirsiniz)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/yas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kedikopek" />
+
+    <EditText
+        android:id="@+id/yas"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:fontFamily="@font/madeleinasans"
+        android:hint="yas(bilinmiyorsa bos birakin)"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/cinsiyet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/irk" />
+
+
+    <EditText
+        android:id="@+id/il"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="1dp"
+        android:ems="10"
+        android:fontFamily="@font/madeleinasans"
+        android:hint="Il"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/ilce"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barinak" />
+
+    <EditText
+        android:id="@+id/ilce"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:fontFamily="@font/madeleinasans"
+        android:hint="İlce"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/genelbilgi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/il" />
+
+    <EditText
+        android:id="@+id/barinak"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:fontFamily="@font/madeleinasans"
+        android:hint="barinaktan mi?"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/il"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cinsiyet" />
+
+    <EditText
+        android:id="@+id/cinsiyet"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:ems="10"
+        android:fontFamily="@font/madeleinasans"
+        android:hint="cinsiyet"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/barinak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yas" />
+
+    <EditText
+        android:id="@+id/genelbilgi"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:fontFamily="@font/madeleinasans"
+        android:hint="eklemek istediginiz bilgiler"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/ilanolustur"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ilce" />
+
+    <Button
+        android:id="@+id/ilanolustur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:backgroundTint="@color/purple_500"
+        android:fontFamily="@font/madeleinasans"
+        android:onClick="ilanolustur"
+        android:text="ILAN OLUSTUR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genelbilgi">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

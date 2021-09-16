@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5EECD2B9"
+    android:gravity="center"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="349dp"
+        android:layout_height="196dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="80dp"
+        android:padding="15dp"
+        android:text="TextView"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Oturum Aç"
+        android:fontFamily="@font/gilroylight"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="15dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:padding="12dp"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/gilroylight"
+        android:background="#04DED9D4"
+        android:textColor="@color/black"
+        android:hint="email girin"
+        android:id="@+id/etEmail" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:fontFamily="@font/gilroylight"
+        android:background="#04DED9D4"
+        android:textColor="@color/black"
+        android:hint="parola girin"
+        android:id="@+id/etPassword" />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:background="#DFB4A0"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/gilroylight"
+            android:layout_marginEnd="2dp"
+            android:textColor="@color/black"
+            android:text="Giriş Yap"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:background="#DFB4A0"
+        android:fontFamily="@font/gilroylight"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textColor="@color/black"
+        android:text="Üye Ol"/>
+</LinearLayout>

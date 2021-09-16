@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">YuvaBul</string>
+    <string-array name="breeds">
+        <item>labrador</item>
+        <item>golden</item>
+        <item>french bulldog</item>
+        <item>scottish fold</item>
+        <item>yok</item>
+        <item>fransız bulldog</item>
+        <item>golden retriever</item>
+        <item>labrador retriever</item>
+    </string-array>
+</resources>
